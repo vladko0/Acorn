@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>ACORN | Администрация на продуктите</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <header class="admin-header">
+    <div>
+      <p class="eyebrow">ACORN</p>
+      <h1>Управление на продуктите</h1>
+    </div>
+    <button type="button" id="logout-button" class="button button-muted" hidden>Изход</button>
+  </header>
+
+  <main>
+    <section id="login-panel" class="login-card">
+      <h2>Администраторски вход</h2>
+      <p>Въведете паролата за редактиране на каталога.</p>
+      <form id="login-form">
+        <label for="admin-password">Парола</label>
+        <div class="password-field">
+          <input id="admin-password" name="password" type="password" autocomplete="current-password" required>
+          <button type="button" id="show-password-button" class="password-toggle">Покажи</button>
+        </div>
+        <button class="button button-primary" type="submit">Вход</button>
+      </form>
+      <p class="status" id="login-status" role="status"></p>
+    </section>
+
+    <section id="editor-panel" class="workspace" data-mobile-view="products" hidden>
+      <nav class="mobile-view-switch" aria-label="Работна зона">
+        <button type="button" id="show-products-button" class="mobile-view-button active" aria-pressed="true">Продукти</button>
+        <button type="button" id="show-editor-button" class="mobile-view-button" aria-pressed="false">Редакция</button>
+      </nav>
+      <aside class="product-sidebar">
+        <div class="toolbar">
+          <div>
+            <h2>Продукти</h2>
+            <p id="catalog-count"></p>
+          </div>
+          <button type="button" id="new-product-button" class="button button-primary">Нов артикул</button>
+        </div>
+        <label class="sr-only" for="admin-search">Търси продукт</label>
+        <input id="admin-search" class="search" type="search" placeholder="Търси продукт...">
+        <div id="category-filters" class="category-filters" aria-label="Филтър по категории"></div>
+        <section class="category-manager" aria-label="Управление на категории">
+          <div class="category-manager-heading">
+            <h3>Категории</h3>
+            <button type="button" id="new-category-button" class="button button-muted">Нова категория</button>
+          </div>
+          <form id="category-form" class="category-form" hidden>
+            <label>Име на категория
+              <input type="text" id="category-name" maxlength="80" required>
+            </label>
+            <label>Идентификатор (URL)
+              <input type="text" id="category-id" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" readonly required>
+              <span class="field-note">Генерира се автоматично с латински букви.</span>
+            </label>
+            <div class="category-actions">
+              <button type="submit" class="button button-primary">Добави</button>
+              <button type="button" id="cancel-category-button" class="button button-muted">Откажи</button>
+            </div>
+          </form>
+          <p class="status category-status" id="category-status" role="status"></p>
+        </section>
+        <nav id="product-list" class="product-list" aria-label="Списък с продукти"></nav>
+      </aside>
+
+      <form id="product-form" class="edit-card">
+        <div class="edit-heading">
+          <div>
+            <p class="eyebrow" id="mode-label">Редакция</p>
+            <h2 id="form-title">Изберете продукт</h2>
+          </div>
+          <a id="preview-link" class="text-link" href="../produkti.html" target="_blank" rel="noopener" hidden>Преглед</a>
+        </div>
+        <fieldset id="product-fields" disabled>
+          <div class="form-grid">
+            <label>Име
+              <input type="text" name="name" maxlength="120" required>
+            </label>
+            <label>Идентификатор (URL)
+              <input type="text" name="id" pattern="[a-z0-9]+(?:-[a-z0-9]+)*" readonly required>
+              <span class="field-note">Генерира се автоматично от името с латински букви.</span>
+            </label>
+            <label>Категория
+              <select name="category" id="category-select" required></select>
+            </label>
+            <label>Път до снимка
+              <input type="text" name="image" placeholder="images/produkt.webp">
+            </label>
+          </div>
+          <div class="image-fields">
+            <label class="image-upload">Прикачи нова снимка
+              <input id="image-upload" type="file" accept="image/png,image/jpeg,image/webp,.png,.jpg,.jpeg,.webp">
+            </label>
+            <div class="image-preview">
+              <img id="image-preview" alt="Преглед на изображението" hidden>
+              <p id="image-upload-status">JPG, PNG или WEBP до 5 MB.</p>
+            </div>
+          </div>
+          <label class="checkbox">
+            <input type="checkbox" name="published" checked>
+            Видим в публичния каталог
+          </label>
+
+          <div class="prices-heading">
+            <h3>Цени с ДДС</h3>
+            <button type="button" id="add-price-button" class="button button-muted">Добави цена</button>
+          </div>
+          <div id="price-rows" class="price-rows"></div>
+          <p class="helper">Въведете цената за 1 кг в евро. Общата цена на опаковката се показва само информативно. Курс: 1 € = 1.95583 лв.</p>
+          <p class="helper">Новите качени снимки се оразмеряват автоматично до квадратен WEBP формат, еднакъв за продуктовите карти.</p>
+
+          <div class="actions">
+            <button type="submit" class="button button-primary">Запази промените</button>
+            <button type="button" id="cancel-button" class="button button-muted">Откажи</button>
+            <button type="button" id="delete-product-button" class="button button-danger" hidden>Изтрий артикула</button>
+          </div>
+        </fieldset>
+        <p class="status" id="editor-status" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <template id="price-template">
+    <div class="price-editor">
+      <input type="hidden" class="price-size">
+      <label class="package-field">Опаковка
+        <select class="price-package" required>
+          <option value="пакет">Пакет</option>
+          <option value="чувал">Чувал</option>
+          <option value="кашон">Кашон</option>
+        </select>
+      </label>
+      <label class="weight-field">Количество (кг)
+        <input type="text" class="price-weight" inputmode="decimal" placeholder="напр. 0.5 или 25" required>
+      </label>
+      <label class="price-per-kilo-field">Цена €/кг
+        <input type="text" class="price-per-kilo" inputmode="decimal" placeholder="11.20" required>
+      </label>
+      <label class="result-eur-field">Цена в сайта €
+        <input type="text" class="price-eur" placeholder="11.20 €/кг" readonly required>
+      </label>
+      <label class="result-bgn-field">Цена в сайта лв
+        <input type="text" class="price-bgn" placeholder="21.90 лв/кг" readonly required>
+      </label>
+      <label class="total-eur-field">Общо € (информация)
+        <input type="text" class="price-total-eur" placeholder="280.00 €" readonly>
+      </label>
+      <label class="total-bgn-field">Общо лв (информация)
+        <input type="text" class="price-total-bgn" placeholder="547.63 лв" readonly>
+      </label>
+      <button type="button" class="remove-price" aria-label="Премахни цена">Премахни</button>
+    </div>
+  </template>
+  <script src="admin.js"></script>
+</body>
+</html>

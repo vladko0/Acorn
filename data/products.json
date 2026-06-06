@@ -1,0 +1,951 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-26T10:42:31.120Z",
+  "categories": [
+    {
+      "id": "surovi-yadki",
+      "name": "Сурови ядки и семена"
+    },
+    {
+      "id": "susheni-plodove",
+      "name": "Сушени плодове"
+    },
+    {
+      "id": "pecheni-yadki",
+      "name": "Печени ядки и миксове"
+    },
+    {
+      "id": "semena",
+      "name": "Семена"
+    }
+  ],
+  "products": [
+    {
+      "id": "surov-belen-badem",
+      "name": "Суров белен бадем",
+      "category": "surovi-yadki",
+      "image": "images/belen-badem.webp",
+      "url": "produkti/surovi-yadki/surov-belen-badem",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "11.50 €/кг",
+          "bgn": "22.49 лв/кг"
+        },
+        {
+          "size": "чувал 25 кг",
+          "eur": "11.25 €/кг",
+          "bgn": "22.00 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "surov-badem",
+      "name": "Суров бадем",
+      "category": "surovi-yadki",
+      "image": "images/surov-badem.webp",
+      "url": "produkti/surovi-yadki/surov-badem",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "5.60 €",
+          "bgn": "10.95 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "10.00 €/кг",
+          "bgn": "19.56 лв/кг"
+        },
+        {
+          "size": "кашон 22.680 кг",
+          "eur": "9.71 €/кг",
+          "bgn": "18.99 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "filiran-badem",
+      "name": "Филиран бадем",
+      "category": "surovi-yadki",
+      "image": "images/filiran-badem.webp",
+      "url": "produkti/surovi-yadki/filiran-badem",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "12.30 €/кг",
+          "bgn": "24.06 лв/кг"
+        },
+        {
+          "size": "кашон 10 кг",
+          "eur": "11.50 €/кг",
+          "bgn": "22.49 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "bademovo-brashno",
+      "name": "Бадемово брашно",
+      "category": "surovi-yadki",
+      "image": "images/bademovo-brashno.webp",
+      "url": "produkti/surovi-yadki/bademovo-brashno",
+      "published": true,
+      "prices": [
+        {
+          "size": "кашон 10 кг",
+          "eur": "12.30 €/кг",
+          "bgn": "24.06 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "surov-turski-leshnik",
+      "name": "Суров турски лешник",
+      "category": "surovi-yadki",
+      "image": "images/surov-turski-leshnik.webp",
+      "url": "produkti/surovi-yadki/surov-turski-leshnik",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "10.48 €",
+          "bgn": "20.50 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "20.45 €/кг",
+          "bgn": "40.00 лв/кг"
+        },
+        {
+          "size": "кашон 25 кг",
+          "eur": "18.92 €/кг",
+          "bgn": "37.00 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "surov-bulgarski-leshnik",
+      "name": "Суров български лешник",
+      "category": "surovi-yadki",
+      "image": "images/surov-bulgarski-leshnik.webp",
+      "url": "produkti/surovi-yadki/surov-bulgarski-leshnik",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "10.48 €",
+          "bgn": "20.50 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "20.45 €/кг",
+          "bgn": "40.00 лв/кг"
+        },
+        {
+          "size": "чувал 20 кг",
+          "eur": "17.38 €/кг",
+          "bgn": "33.99 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "surov-sham-fastak",
+      "name": "Суров шам фъстък",
+      "category": "surovi-yadki",
+      "image": "images/surov-shamfastak.webp",
+      "url": "produkti/surovi-yadki/surov-sham-fastak",
+      "published": true,
+      "prices": [
+        {
+          "size": "чувал 25 кг",
+          "eur": "12.30 €/кг",
+          "bgn": "24.06 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "belen-sham-fastak",
+      "name": "Белен шам фъстък",
+      "category": "surovi-yadki",
+      "image": "images/belen-edar-shamfastak.webp",
+      "url": "produkti/surovi-yadki/belen-sham-fastak",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "15.90 €",
+          "bgn": "31.10 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "30.70 €/кг",
+          "bgn": "60.04 лв/кг"
+        },
+        {
+          "size": "кашон 10 кг",
+          "eur": "28.00 €/кг",
+          "bgn": "54.76 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "surovo-kashu",
+      "name": "Сурово кашу размер 180",
+      "category": "surovi-yadki",
+      "image": "images/surovo-kashu.webp",
+      "url": "produkti/surovi-yadki/surovo-kashu",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "5.70 €",
+          "bgn": "11.15 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "11.00 €/кг",
+          "bgn": "21.51 лв/кг"
+        },
+        {
+          "size": "кашон 22.680 кг",
+          "eur": "10.00 €/кг",
+          "bgn": "19.56 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "surovo-kashu-320",
+      "name": "Сурово кашу размер 320",
+      "category": "surovi-yadki",
+      "image": "images/surovo-kashu.webp",
+      "url": "produkti/surovi-yadki/surovo-kashu-320",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "9.70 €/кг",
+          "bgn": "18.97 лв/кг"
+        },
+        {
+          "size": "кашон 22.680 кг",
+          "eur": "9.70 €/кг",
+          "bgn": "18.97 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "brazilski-oreh",
+      "name": "Бразилски орех",
+      "category": "surovi-yadki",
+      "image": "images/brazilski-oreh.webp",
+      "url": "produkti/surovi-yadki/brazilski-oreh",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "12.80 €",
+          "bgn": "25.03 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "24.50 €/кг",
+          "bgn": "47.92 лв/кг"
+        },
+        {
+          "size": "кашон 20 кг",
+          "eur": "23.00 €/кг",
+          "bgn": "44.98 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "kedrova-yadka",
+      "name": "Кедрова ядка",
+      "category": "surovi-yadki",
+      "image": "images/kedrova-yadka.webp",
+      "url": "produkti/surovi-yadki/kedrova-yadka",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "15.00 €",
+          "bgn": "29.34 лв"
+        },
+        {
+          "size": "кашон 12.500 кг",
+          "eur": "14.60 €/кг",
+          "bgn": "28.56 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "makadamia",
+      "name": "Макадамия размер нула",
+      "category": "surovi-yadki",
+      "image": "images/makadamiya.webp",
+      "url": "produkti/surovi-yadki/makadamia",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "13.00 €",
+          "bgn": "25.43 лв"
+        },
+        {
+          "size": "кашон 11.340 кг",
+          "eur": "24.00 €/кг",
+          "bgn": "46.94 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "orehova-yadka-chetvartak",
+      "name": "Орехова ядка 1/4 еденица",
+      "category": "surovi-yadki",
+      "image": "images/orehova-yadka-1-4-drebna.webp",
+      "url": "produkti/surovi-yadki/orehova-yadka-chetvartak",
+      "published": true,
+      "prices": [
+        {
+          "size": "вакуум кашон 10 кг",
+          "eur": "7.70 €/кг",
+          "bgn": "15.06 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "orehova-yadka-polovina",
+      "name": "Орехова ядка 1/2 двойка",
+      "category": "surovi-yadki",
+      "image": "images/orehova-yadka-edra.webp",
+      "url": "produkti/surovi-yadki/orehova-yadka-polovina",
+      "published": true,
+      "prices": [
+        {
+          "size": "вакуум кашон 10 кг",
+          "eur": "8.20 €/кг",
+          "bgn": "16.04 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "orehova-yadka-polovina-byala",
+      "name": "Орехова ядка 1/2 двойка много бяла",
+      "category": "surovi-yadki",
+      "image": "images/orehova-yadka-byala.webp",
+      "url": "produkti/surovi-yadki/orehova-yadka-polovina-byala",
+      "published": true,
+      "prices": [
+        {
+          "size": "вакуум кашон 10 кг",
+          "eur": "9.20 €/кг",
+          "bgn": "17.99 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "miks-zdrave",
+      "name": "Микс Здраве - ядки плюс сушени плодове",
+      "category": "surovi-yadki",
+      "image": "images/surov-miks-zdrave-yadki-i-susheni-plodove.webp",
+      "url": "produkti/pecheni-yadki/miks-zdrave",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "5.20 €",
+          "bgn": "10.17 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "9.70 €/кг",
+          "bgn": "18.97 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "miks-yadki-energy",
+      "name": "Суров микс ядки \"Енерджи\"",
+      "category": "surovi-yadki",
+      "image": "images/miks-yadki-energy.webp",
+      "url": "produkti/surovi-yadki/miks-yadki-energy",
+      "published": true,
+      "prices": []
+    },
+    {
+      "id": "pekan",
+      "name": "Пекан",
+      "category": "surovi-yadki",
+      "image": "images/pekan.webp",
+      "url": "produkti/surovi-yadki/pekan",
+      "published": true,
+      "prices": []
+    },
+    {
+      "id": "surov-fustuk",
+      "name": "Суров фъстък",
+      "category": "surovi-yadki",
+      "image": "images/surov-fustuk.webp",
+      "url": "produkti/surovi-yadki/surov-fustuk",
+      "published": true,
+      "prices": [
+        {
+          "size": "чувал 25 кг",
+          "eur": "2.35 €/кг",
+          "bgn": "4.60 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "chervena-borovinka",
+      "name": "Червена боровинка американска",
+      "category": "susheni-plodove",
+      "image": "images/amerikanska-chervena-borovinka.webp",
+      "url": "produkti/susheni-plodove/chervena-borovinka",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "7.30 €/кг",
+          "bgn": "14.28 лв/кг"
+        },
+        {
+          "size": "кашон 11.340 кг",
+          "eur": "6.80 €/кг",
+          "bgn": "13.30 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "sinya-borovinka",
+      "name": "Синя боровинка",
+      "category": "susheni-plodove",
+      "image": "images/naturalna-cherna-borovinka.webp",
+      "url": "produkti/susheni-plodove/sinya-borovinka",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "10.00 €",
+          "bgn": "19.56 лв"
+        },
+        {
+          "size": "кашон 10 кг",
+          "eur": "18.00 €/кг",
+          "bgn": "35.20 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "godzhi-beri",
+      "name": "Годжи бери",
+      "category": "susheni-plodove",
+      "image": "images/godzhi-beri.webp",
+      "url": "produkti/susheni-plodove/godzhi-beri",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "10.00 €",
+          "bgn": "19.56 лв"
+        }
+      ]
+    },
+    {
+      "id": "zlatna-stafida",
+      "name": "Златна стафида",
+      "category": "susheni-plodove",
+      "image": "images/zlatna-stafida.webp",
+      "url": "produkti/susheni-plodove/zlatna-stafida",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "4.50 €/кг",
+          "bgn": "8.80 лв/кг"
+        },
+        {
+          "size": "кашон 10 кг",
+          "eur": "4.30 €/кг",
+          "bgn": "8.41 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "stafidi-susheni",
+      "name": "Стафиди тъмни",
+      "category": "susheni-plodove",
+      "image": "images/tamna-drebna-stafida-za-proizvodstvo.webp",
+      "url": "produkti/susheni-plodove/stafidi-susheni",
+      "published": true,
+      "prices": [
+        {
+          "size": "кашон 10 кг",
+          "eur": "3.70 €/кг",
+          "bgn": "7.24 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "izraelski-furmi",
+      "name": "Израелски фурми Меджул",
+      "category": "susheni-plodove",
+      "image": "images/izraelski-furmi-dzhambo.webp",
+      "url": "produkti/susheni-plodove/izraelski-furmi",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "9.00 €/кг",
+          "bgn": "17.60 лв/кг"
+        },
+        {
+          "size": "пакет 5 кг",
+          "eur": "8.50 €/кг",
+          "bgn": "16.62 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "naturalni-furmi-iran",
+      "name": "Натурални фурми Иран",
+      "category": "susheni-plodove",
+      "image": "images/naturalni-furmi-kutiya.webp",
+      "url": "produkti/susheni-plodove/naturalni-furmi-iran",
+      "published": true,
+      "prices": [
+        {
+          "size": "кашон 12 броя",
+          "eur": "1.84 €/бр",
+          "bgn": "3.60 лв/бр"
+        }
+      ]
+    },
+    {
+      "id": "susheni-slivi",
+      "name": "Сушени сливи без костилка",
+      "category": "susheni-plodove",
+      "image": "images/sini-slivi-bez-kostilka.webp",
+      "url": "produkti/susheni-plodove/susheni-slivi",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "5.90 €/кг",
+          "bgn": "11.54 лв/кг"
+        },
+        {
+          "size": "кашон 10 кг",
+          "eur": "5.60 €/кг",
+          "bgn": "10.95 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "susheni-smokini",
+      "name": "Сушени смокини",
+      "category": "susheni-plodove",
+      "image": "images/sushena-smokinya.webp",
+      "url": "produkti/susheni-plodove/susheni-smokini",
+      "published": true,
+      "prices": [
+        {
+          "size": "кашон 2.500 кг",
+          "eur": "10.40 €/кг",
+          "bgn": "20.30 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "susheni-chushki",
+      "name": "Сушени чушки",
+      "category": "susheni-plodove",
+      "image": "images/susheni-chushki.webp",
+      "url": "produkti/susheni-plodove/susheni-chushki",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 20 бр. х 80 гр",
+          "eur": "1.90 €/бр",
+          "bgn": "3.72 лв/бр"
+        }
+      ]
+    },
+    {
+      "id": "kokosovi-kubcheta",
+      "name": "Кокосови кубчета",
+      "category": "susheni-plodove",
+      "image": "images/kokosovi-kubcheta.webp",
+      "url": "produkti/surovi-yadki/kokosovi-kubcheta",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "7.20 €/кг",
+          "bgn": "14.08 лв/кг"
+        },
+        {
+          "size": "кашон 12.500 кг",
+          "eur": "6.50 €/кг",
+          "bgn": "12.71 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "chiliiska-stafida",
+      "name": "Чилийска стафида едра",
+      "category": "susheni-plodove",
+      "image": "images/chiliiska-stafida.webp",
+      "url": "produkti/susheni-plodove/chiliiska-stafida",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "5.00 €",
+          "bgn": "9.76 лв"
+        },
+        {
+          "size": "кашон 10 кг",
+          "eur": "4.60 €/кг",
+          "bgn": "9.00 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "kaisiya-djumbo",
+      "name": "Сушена кайсия Джъмбо",
+      "category": "susheni-plodove",
+      "image": "images/kaisiya-djumbo.webp",
+      "url": "produkti/susheni-plodove/kaisiya-djumbo",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "6.20 €",
+          "bgn": "12.13 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "11.25 €",
+          "bgn": "22.00 лв"
+        },
+        {
+          "size": "пакет 2.500 кг",
+          "eur": "10.70 €/кг",
+          "bgn": "20.73 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "naturalna-kaisiya",
+      "name": "Натурална кайсия",
+      "category": "susheni-plodove",
+      "image": "images/naturalna-kaisiya.webp",
+      "url": "produkti/susheni-plodove/naturalna-kaisiya",
+      "published": true,
+      "prices": []
+    },
+    {
+      "id": "zaharosan-djindjifil",
+      "name": "Захаросан джинджифил",
+      "category": "susheni-plodove",
+      "image": "images/zaharosan-djindjifil.webp",
+      "url": "produkti/susheni-plodove/zaharosan-djindjifil",
+      "published": true,
+      "prices": [
+        {
+          "size": "1 кг",
+          "eur": "6.00 €",
+          "bgn": "11.73 лв"
+        }
+      ]
+    },
+    {
+      "id": "tymna-drebna-stafida",
+      "name": "Тъмна дребна стафида за производство",
+      "category": "susheni-plodove",
+      "image": "images/tymna-drebna-stafida.webp",
+      "url": "produkti/susheni-plodove/tymna-drebna-stafida",
+      "published": true,
+      "prices": [
+        {
+          "size": "кашон 10 кг",
+          "eur": "3.70 €/кг",
+          "bgn": "7.24 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "pechen-badem",
+      "name": "Печен бадем",
+      "category": "pecheni-yadki",
+      "image": "images/pechen-badem.webp",
+      "url": "produkti/pecheni-yadki/pechen-badem",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "5.70 €",
+          "bgn": "11.15 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "10.50 €/кг",
+          "bgn": "20.54 лв/кг"
+        },
+        {
+          "size": "пакет 5 кг",
+          "eur": "10.20 €/кг",
+          "bgn": "19.95 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "pechen-leshnik",
+      "name": "Печен лешник",
+      "category": "pecheni-yadki",
+      "image": "images/pechen-leshnik.webp",
+      "url": "produkti/pecheni-yadki/pechen-leshnik",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "22.10 €/кг",
+          "bgn": "43.22 лв/кг"
+        },
+        {
+          "size": "пакет 5 кг",
+          "eur": "22.00 €/кг",
+          "bgn": "43.03 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "pechen-miks",
+      "name": "Печен микс",
+      "category": "pecheni-yadki",
+      "image": "images/pechen-miks-yadki.webp",
+      "url": "produkti/pecheni-yadki/pechen-miks",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "14.85 €",
+          "bgn": "29.04 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "14.30 €/кг",
+          "bgn": "27.97 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "pechen-sham-fastak",
+      "name": "Печен шам фъстък",
+      "category": "pecheni-yadki",
+      "image": "images/pechen-shamfastak.webp",
+      "url": "produkti/pecheni-yadki/pechen-sham-fastak",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "7.20 €",
+          "bgn": "14.08 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "13.30 €/кг",
+          "bgn": "26.01 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "blanshiran-leshnik",
+      "name": "Бланширан лешник",
+      "category": "pecheni-yadki",
+      "image": "images/blanshiran-leshnik.webp",
+      "url": "produkti/surovi-yadki/blanshiran-leshnik",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 500 гр",
+          "eur": "25.05 €",
+          "bgn": "49.00 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "24.50 €/кг",
+          "bgn": "47.92 лв/кг"
+        },
+        {
+          "size": "кашон 25 кг",
+          "eur": "24.00 €/кг",
+          "bgn": "46.94 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "kashu-pecheno-lyuspa",
+      "name": "Кашу печено с люспа",
+      "category": "pecheni-yadki",
+      "image": "images/pecheno-kashu-sas-lyuspa.webp",
+      "url": "produkti/surovi-yadki/kashu-pecheno-lyuspa",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 0.500 кг",
+          "eur": "5.60 €",
+          "bgn": "10.95 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "10.20 €/кг",
+          "bgn": "19.95 лв/кг"
+        },
+        {
+          "size": "тенекия 10 кг",
+          "eur": "10.00 €/кг",
+          "bgn": "19.56 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "kashu-pecheno-180",
+      "name": "Кашу печено размер 180",
+      "category": "pecheni-yadki",
+      "image": "images/pecheno-kashu.webp",
+      "url": "produkti/surovi-yadki/kashu-pecheno-180",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 0.500 кг",
+          "eur": "5.90 €",
+          "bgn": "11.54 лв"
+        },
+        {
+          "size": "пакет 1 кг",
+          "eur": "11.25 €/кг",
+          "bgn": "22.00 лв/кг"
+        },
+        {
+          "size": "пакет 5 кг",
+          "eur": "10.20 €/кг",
+          "bgn": "19.95 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "kashu-pecheno-320",
+      "name": "Кашу печено размер 320",
+      "category": "pecheni-yadki",
+      "image": "images/pecheno-kashu.webp",
+      "url": "produkti/surovi-yadki/kashu-pecheno-320",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "10.00 €/кг",
+          "bgn": "19.56 лв/кг"
+        },
+        {
+          "size": "пакет 5 кг",
+          "eur": "9.50 €/кг",
+          "bgn": "18.58 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "beleno-tikveno-seme",
+      "name": "Белено тиквено семе",
+      "category": "semena",
+      "image": "images/beleno-tikveno-seme.webp",
+      "url": "produkti/semena/beleno-tikveno-seme",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "5.70 €",
+          "bgn": "11.15 лв"
+        },
+        {
+          "size": "чувал 25 кг",
+          "eur": "5.20 €/кг",
+          "bgn": "10.17 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "beleno-konopeno-seme",
+      "name": "Белено конопено семе",
+      "category": "semena",
+      "image": "images/beleno-konopeno-seme.webp",
+      "url": "produkti/semena/beleno-konopeno-seme",
+      "published": true,
+      "prices": [
+        {
+          "size": "чувал 25 кг",
+          "eur": "10.20 €/кг",
+          "bgn": "10.25 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "chiya",
+      "name": "Чия",
+      "category": "semena",
+      "image": "images/chiya.webp",
+      "url": "produkti/semena/chiya",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "4.60 €",
+          "bgn": "9.00 лв"
+        },
+        {
+          "size": "чувал 25 кг",
+          "eur": "4.40 €/кг",
+          "bgn": "8.61 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "kinoa",
+      "name": "Киноа",
+      "category": "semena",
+      "image": "images/kinoa.webp",
+      "url": "produkti/semena/kinoa",
+      "published": true,
+      "prices": [
+        {
+          "size": "пакет 1 кг",
+          "eur": "5.00 €",
+          "bgn": "10.78 лв"
+        },
+        {
+          "size": "чувал 25 кг",
+          "eur": "4.50 €/кг",
+          "bgn": "8.80 лв/кг"
+        }
+      ]
+    },
+    {
+      "id": "belen-slanchogled",
+      "name": "Белен слънчоглед",
+      "category": "semena",
+      "image": "images/belen-slanchogled.webp",
+      "url": "produkti/semena/belen-slanchogled",
+      "published": true,
+      "prices": [
+        {
+          "size": "чувал 25 кг",
+          "eur": "2.20 €/кг",
+          "bgn": "4.30 лв/кг"
+        }
+      ]
+    }
+  ]
+}
